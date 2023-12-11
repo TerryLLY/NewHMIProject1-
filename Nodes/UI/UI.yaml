@@ -235,4 +235,12 @@ Children:
       Type: DynamicLink
       DataType: NodePath
       Value: "/Objects/NewHMIProject1éé@BrowseName"
+  - Name: Étiquette1
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"fr-FR","Text":"Étiquette1"}
 - File: Screens/Screens.yaml
